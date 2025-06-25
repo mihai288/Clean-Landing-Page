@@ -24,6 +24,8 @@ header {
     align-items: center;
     justify-content: space-between;
     max-width: 99%;
+    font-weight: bold;
+    padding: 20px;
 }
 .hdr-signin{
     text-decoration: none;
@@ -143,7 +145,8 @@ header {
     }
 
 .logo{
-    margin-left: 15px;
+    margin-left: 35px;
+    font-size: 40px;
 }
 .welcome{
     width: 100%;
@@ -177,7 +180,7 @@ header {
 .learn-more:hover{
     background-color: black;
 }
-@media (max-width: 850px) {
+@media (max-width: 853px) {
     header{
         flex-direction: column;
     }
@@ -196,11 +199,12 @@ header {
         margin-top: 50px;
     }
 }
-@media (max-width: 517px) {
+@media (max-width: 542px) {
     header{
         font-size: 10px;
         margin: 0;
         max-width: 100%;
+        padding: 0;
     }
     .buttons{
         margin-top: 12px;
